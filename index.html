@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+<title>To Do List</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+<!--<link rel="stylesheet" href="css/TitilliumWeb-SemiBold.css">-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="todoapp.css"  rel="stylesheet" >
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <div class="clear">
+            <button id="clearbutton" onClick="Reload()"><span><i class="fa fa-refresh"></i><span></button>
+        </div>
+        <div id=doit><span><h1>Let's do this!</h1></span></div>
+        <div id=date></div>
+
+        
+    </div>
+
+
+    <div class="content">
+        <ul id="list"></ul>
+        
+    </div>
+
+    <div class="add-item">
+        <input type="text" id="item" placeholder="Add a to-do" maxlength="29" autofocus>
+        <button onclick="" id="addItemButton" >Add</button>
+    </div>
+
+</div>
+<script src="todoapp.js"></script>
+</body>
+</html>
